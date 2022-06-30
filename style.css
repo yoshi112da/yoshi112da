@@ -1,0 +1,65 @@
+body{ background: -moz-linear-gradient(top, #abffff, #FFF);
+      background: -webkit-linear-gradient(top, #abffff, #FFF);
+     background: linear-gradient(to bottom, #abffff, #FFF);
+  width: 1040px;
+  margin: 0em;
+  font-size: 2rem;
+  display: flex;
+  
+  min-height: 100vh;
+}
+aside{min-width: 150px;
+  max-width: 200px ;
+  flex-direction: column;
+}
+aside li {border: solid;
+  border-radius: 10px;}
+div.your-class{max-height: 378px}
+
+main{
+  flex: 1;
+  min-height: 100vh;
+}
+p.maintext{position: absolute;
+  width: 1000px;
+  font-weight: bold;
+  color: #e91e63;
+  font-family: cursive;
+  font-size: 3rem;
+  top: 1px;}
+img.suraido{width: 800px;}
+img.main{height: 378px;
+width: 800px;}
+
+
+div.content{margin: 20px;}
+div li{
+  padding: 0.5em 1em;
+ 
+  font-weight: bold;
+  color: #6091d3;/*文字色*/
+  background: #FFF;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+footer{background-color:gray;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+ul{display: flex;}
+ul img {width: 400px;}
+ul div{border-radius: 10px;}
+#item {position: relative;
+  }
+#time{position: relative;}
+a.time {position: absolute;
+  left: 0px;
+  color: #ff6a84;}
+a.item{position: absolute;
+  left: 0px;
+  color: #ff6a84;}
+footer a{position: absolute;}
+.logo{position: absolute;
+  right: 0px;
+top: 0px;}
